@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f1b33"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1024" height="768" fill="#ffffff"/>
+
+  <!-- ================= HEADER ================= -->
+  <rect x="0" y="0" width="1024" height="92" fill="url(#hdr)"/>
+  <!-- logo -->
+  <rect x="24" y="22" width="48" height="48" rx="12" fill="#2563eb"/>
+  <path d="M38 56 l9 -16 7 10 4 -6 6 12 z" fill="#ffffff" opacity="0.95"/>
+  <circle cx="60" cy="30" r="4" fill="#bfdbfe"/>
+  <!-- title -->
+  <text x="86" y="46" font-size="30" font-weight="800" fill="#ffffff">StudyFlow <tspan fill="#60a5fa">AI</tspan></text>
+  <text x="88" y="70" font-size="14" fill="#cbd5e1">Plan Smarter. Study Better.  <tspan fill="#93c5fd" font-weight="700">Nothing changes until you approve.</tspan></text>
+  <!-- team block -->
+  <text x="1000" y="40" text-anchor="end" font-size="17" font-weight="800" fill="#ffffff">Team StudyFlow</text>
+  <text x="1000" y="62" text-anchor="end" font-size="11" letter-spacing="1" fill="#93c5fd" font-weight="700">AGENTIC AI HACKATHON · MULTI-AGENT PLANNER</text>
+
+  <!-- authors strip -->
+  <rect x="0" y="92" width="1024" height="26" fill="#111b2e"/>
+  <text x="24" y="110" font-size="11" font-weight="700" fill="#e2e8f0">Sumukh Veeramalla</text>
+  <text x="1000" y="110" text-anchor="end" font-size="11" fill="#94a3b8">Adaptive academic planning · task decomposition · conflict-free scheduling</text>
+
+  <!-- ================= LEFT COLUMN ================= -->
+  <!-- (1) PROBLEM -->
+  <circle cx="32" cy="146" r="9" fill="#2563eb"/><text x="32" y="150" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">1</text>
+  <text x="50" y="150" font-size="12" letter-spacing="1.5" font-weight="800" fill="#1e293b">THE PROBLEM</text>
+
+  <rect x="24" y="162" width="300" height="86" rx="10" fill="#f1f5f9" stroke="#2563eb" stroke-width="2"/>
+  <text x="38" y="184" font-size="10.5" letter-spacing="1" font-weight="700" fill="#64748b">4 DEADLINES · 1 FIXED CLASS · 1 MEETING</text>
+  <text x="38" y="206" font-size="13" fill="#334155">ML assignment Fri · Chem midterm Mon</text>
+  <text x="38" y="226" font-size="14" font-weight="800" fill="#0f172a">Class 1–3pm  ·  Study 9–11am tomorrow</text>
+
+  <text x="24" y="282" font-size="30" font-weight="800" fill="#2563eb">Re-plan by hand</text>
+  <text x="24" y="304" font-size="14" fill="#334155">every time something changes.</text>
+
+  <circle cx="30" cy="326" r="3" fill="#94a3b8"/><text x="42" y="330" font-size="12" fill="#475569">Assignments, exams, classes live in different apps.</text>
+  <circle cx="30" cy="348" r="3" fill="#94a3b8"/><text x="42" y="352" font-size="12" fill="#475569">A conflict-free, deadline-aware plan is tedious.</text>
+  <circle cx="30" cy="370" r="3" fill="#94a3b8"/><text x="42" y="374" font-size="12" fill="#475569">One surprise and the whole schedule breaks.</text>
+
+  <!-- (2) COMPETITORS / MARKET -->
+  <circle cx="32" cy="406" r="9" fill="#2563eb"/><text x="32" y="410" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">2</text>
+  <text x="50" y="410" font-size="12" letter-spacing="1.5" font-weight="800" fill="#1e293b">WHO ELSE · WHO IT'S FOR</text>
+
+  <text x="24" y="434" font-size="12" fill="#475569"><tspan font-weight="800" fill="#0f172a">Direct:</tspan> Motion, Reclaim, Sunsama (work calendars).</text>
+  <text x="24" y="454" font-size="12" fill="#475569"><tspan font-weight="800" fill="#0f172a">Indirect:</tspan> Google Calendar, Notion, Todoist, ChatGPT.</text>
+  <text x="24" y="474" font-size="12" fill="#475569"><tspan font-weight="800" fill="#0f172a">Target:</tspan> college students juggling courses &amp; deadlines.</text>
+
+  <rect x="24" y="486" width="300" height="70" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="38" y="506" font-size="10.5" letter-spacing="1" font-weight="700" fill="#2563eb">WE ADD</text>
+  <text x="38" y="526" font-size="12" fill="#334155">Academic-first: assignments auto-become tasks.</text>
+  <text x="38" y="544" font-size="12" fill="#334155">Deterministic, conflict-free plans. Approve before apply.</text>
+
+  <!-- (7) ANYTHING ELSE -->
+  <circle cx="32" cy="590" r="9" fill="#2563eb"/><text x="32" y="594" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">7</text>
+  <text x="50" y="594" font-size="12" letter-spacing="1.5" font-weight="800" fill="#1e293b">ANYTHING ELSE</text>
+  <circle cx="30" cy="612" r="3" fill="#94a3b8"/><text x="42" y="616" font-size="11.5" fill="#475569">Runs with no API key (labeled demo mode) or any</text>
+  <text x="42" y="632" font-size="11.5" fill="#475569">OpenAI-compatible LLM. 31 passing backend tests.</text>
+  <circle cx="30" cy="650" r="3" fill="#94a3b8"/><text x="42" y="654" font-size="11.5" fill="#475569">LangGraph recovery loop retries invalid schedules.</text>
+
+  <!-- ================= MIDDLE/RIGHT: HOW IT WORKS ================= -->
+  <circle cx="352" cy="146" r="9" fill="#2563eb"/><text x="352" y="150" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">4</text>
+  <text x="370" y="150" font-size="12" letter-spacing="1.5" font-weight="800" fill="#1e293b">HOW IT WORKS</text>
+
+  <!-- step 1 -->
+  <rect x="344" y="162" width="206" height="86" rx="10" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="358" y="182" font-size="10" letter-spacing="1" font-weight="700" fill="#2563eb">1 · SUPERVISOR</text>
+  <text x="358" y="202" font-size="13" font-weight="800" fill="#0f172a">Reads your words.</text>
+  <text x="358" y="221" font-size="11" fill="#475569">Classifies intent: create,</text>
+  <text x="358" y="236" font-size="11" fill="#475569">schedule, replan, decompose.</text>
+  <text x="556" y="208" font-size="20" fill="#1e293b">→</text>
+
+  <!-- step 2 -->
+  <rect x="574" y="162" width="206" height="86" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="588" y="182" font-size="10" letter-spacing="1" font-weight="700" fill="#b45309">2 · INTAKE + PLANNER</text>
+  <text x="588" y="202" font-size="13" font-weight="800" fill="#0f172a">Dissects the paragraph.</text>
+  <text x="588" y="221" font-size="11" fill="#475569">Asks for missing deadlines,</text>
+  <text x="588" y="236" font-size="11" fill="#475569">creates items + subtasks.</text>
+  <text x="786" y="208" font-size="20" fill="#1e293b">→</text>
+
+  <!-- step 3 -->
+  <rect x="804" y="162" width="206" height="86" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="818" y="182" font-size="10" letter-spacing="1" font-weight="700" fill="#b45309">3 · SCHEDULER / REPLAN</text>
+  <text x="818" y="202" font-size="13" font-weight="800" fill="#0f172a">Builds the plan.</text>
+  <text x="818" y="221" font-size="11" fill="#475569">Study blocks around fixed</text>
+  <text x="818" y="236" font-size="11" fill="#475569">events, before deadlines.</text>
+
+  <!-- step 4 (wrap down) -->
+  <rect x="344" y="268" width="206" height="86" rx="10" fill="#fff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="358" y="288" font-size="10" letter-spacing="1" font-weight="700" fill="#0369a1">4 · VALIDATOR (no LLM)</text>
+  <text x="358" y="308" font-size="13" font-weight="800" fill="#0f172a">Checks every block.</text>
+  <text x="358" y="327" font-size="11" fill="#475569">No overlaps, no clash with</text>
+  <text x="358" y="342" font-size="11" fill="#475569">fixed events, deadlines met.</text>
+  <text x="556" y="314" font-size="20" fill="#1e293b">→</text>
+
+  <!-- step 5 human -->
+  <rect x="574" y="268" width="206" height="86" rx="10" fill="#f0fdf4" stroke="#10b981" stroke-width="2"/>
+  <text x="588" y="288" font-size="10" letter-spacing="1" font-weight="700" fill="#047857">5 · HUMAN</text>
+  <text x="588" y="308" font-size="13" font-weight="800" fill="#0f172a">You approve.</text>
+  <text x="588" y="327" font-size="11" fill="#475569">Original vs proposed shown.</text>
+  <text x="588" y="342" font-size="11" fill="#475569">Reject = nothing happens.</text>
+
+  <!-- legend + recovery note -->
+  <rect x="806" y="268" width="14" height="14" rx="3" fill="none" stroke="#2563eb"/><text x="826" y="280" font-size="11" fill="#475569">supervisor</text>
+  <rect x="806" y="288" width="14" height="14" rx="3" fill="none" stroke="#f59e0b"/><text x="826" y="300" font-size="11" fill="#475569">specialist</text>
+  <rect x="806" y="308" width="14" height="14" rx="3" fill="none" stroke="#0ea5e9"/><text x="826" y="320" font-size="11" fill="#475569">validator</text>
+  <rect x="806" y="328" width="14" height="14" rx="3" fill="none" stroke="#10b981"/><text x="826" y="340" font-size="11" fill="#475569">human</text>
+
+  <!-- (5) WHAT YOU SEE -->
+  <circle cx="352" cy="384" r="9" fill="#2563eb"/><text x="352" y="388" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">5</text>
+  <text x="370" y="388" font-size="12" letter-spacing="1.5" font-weight="800" fill="#1e293b">WHAT THE STUDENT SEES</text>
+
+  <!-- mock app panel -->
+  <rect x="344" y="400" width="340" height="188" rx="10" fill="#0b1220"/>
+  <circle cx="360" cy="416" r="3" fill="#ef4444"/><circle cx="372" cy="416" r="3" fill="#f59e0b"/><circle cx="384" cy="416" r="3" fill="#22c55e"/>
+  <text x="664" y="420" text-anchor="end" font-size="9" fill="#64748b">LLM mode</text>
+  <!-- chat bubble -->
+  <rect x="440" y="430" width="232" height="30" rx="8" fill="#2563eb"/>
+  <text x="452" y="449" font-size="9.5" fill="#fff">"ML assignment Fri, Chem midterm Mon,</text>
+  <rect x="356" y="466" width="260" height="46" rx="8" fill="#1e293b"/>
+  <text x="368" y="483" font-size="9.5" fill="#cbd5e1">I'll create: 2 assignments (+subtasks),</text>
+  <text x="368" y="497" font-size="9.5" fill="#cbd5e1">1 exam. Build a study plan? (yes/no)</text>
+  <!-- proposal preview -->
+  <rect x="356" y="520" width="316" height="58" rx="8" fill="#0f1b33" stroke="#1e3a5f"/>
+  <text x="368" y="537" font-size="9" letter-spacing="1" font-weight="700" fill="#60a5fa">PROPOSAL · 7 STUDY BLOCKS</text>
+  <rect x="368" y="546" width="120" height="22" rx="6" fill="#065f46"/><text x="428" y="561" text-anchor="middle" font-size="10" font-weight="700" fill="#d1fae5">Approve</text>
+  <rect x="498" y="546" width="110" height="22" rx="6" fill="#334155"/><text x="553" y="561" text-anchor="middle" font-size="10" font-weight="700" fill="#e2e8f0">Reject</text>
+  <text x="344" y="606" font-size="11" font-weight="700" fill="#0f172a">One chat. Real items. A plan you approve.</text>
+
+  <!-- (6) DOES IT WORK / EVAL -->
+  <circle cx="712" cy="384" r="9" fill="#2563eb"/><text x="712" y="388" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">6</text>
+  <text x="730" y="388" font-size="12" letter-spacing="1.5" font-weight="800" fill="#1e293b">AI EVALUATION &amp; RESPONSIBLE USE</text>
+
+  <!-- stat cards -->
+  <rect x="704" y="400" width="98" height="70" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="753" y="436" text-anchor="middle" font-size="26" font-weight="800" fill="#2563eb">31</text>
+  <text x="753" y="453" text-anchor="middle" font-size="9.5" fill="#475569">tests passing</text>
+  <text x="753" y="465" text-anchor="middle" font-size="8.5" fill="#94a3b8">backend suite</text>
+
+  <rect x="812" y="400" width="98" height="70" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="861" y="436" text-anchor="middle" font-size="26" font-weight="800" fill="#059669">0</text>
+  <text x="861" y="453" text-anchor="middle" font-size="9.5" fill="#475569">schedule conflicts</text>
+  <text x="861" y="465" text-anchor="middle" font-size="8.5" fill="#94a3b8">validator-enforced</text>
+
+  <rect x="920" y="400" width="90" height="70" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="965" y="436" text-anchor="middle" font-size="26" font-weight="800" fill="#d97706">100%</text>
+  <text x="965" y="453" text-anchor="middle" font-size="9.5" fill="#475569">changes gated</text>
+  <text x="965" y="465" text-anchor="middle" font-size="8.5" fill="#94a3b8">by approval</text>
+
+  <!-- responsible use list -->
+  <text x="704" y="494" font-size="11" fill="#16a34a">✓ Deterministic validation — not the LLM — guarantees correctness</text>
+  <text x="704" y="512" font-size="11" fill="#16a34a">✓ Human approves every calendar change (human-in-the-loop)</text>
+  <text x="704" y="530" font-size="11" fill="#16a34a">✓ Every agent + tool + validation step is logged, not fabricated</text>
+  <text x="704" y="548" font-size="11" fill="#16a34a">✓ API key kept in gitignored .env; no secrets committed</text>
+
+  <!-- where it's limited -->
+  <rect x="704" y="558" width="306" height="30" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="716" y="571" font-size="9" letter-spacing="1" font-weight="700" fill="#b91c1c">LIMITS</text>
+  <text x="716" y="583" font-size="9.5" fill="#7f1d1d">Greedy (not optimal) scheduler · demo-mode parsing is heuristic · single user.</text>
+
+  <!-- ================= FOOTER ================= -->
+  <rect x="0" y="632" width="1024" height="136" fill="#0b1220"/>
+  <circle cx="32" cy="664" r="9" fill="#2563eb"/><text x="32" y="668" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">3</text>
+  <text x="50" y="668" font-size="12" letter-spacing="1.5" font-weight="800" fill="#cbd5e1">SOURCES &amp; ACKNOWLEDGEMENT</text>
+  <text x="24" y="690" font-size="10" fill="#94a3b8">LangGraph &amp; LangChain (orchestration) · FastAPI · SQLAlchemy · React + Vite + Tailwind · Recharts</text>
+  <text x="24" y="708" font-size="10" fill="#94a3b8">LLM via OpenRouter (OpenAI-compatible, e.g. openai/gpt-4o-mini) · deterministic scheduling &amp; validation engines</text>
+  <text x="24" y="726" font-size="10" fill="#94a3b8">Thanks to the course staff and hackathon organizers.</text>
+
+  <text x="1000" y="684" text-anchor="end" font-size="15" font-weight="800" fill="#ffffff">It dissects. It schedules. It validates.</text>
+  <text x="1000" y="706" text-anchor="end" font-size="15" font-weight="800" fill="#60a5fa">Nothing changes until you approve.</text>
+  <text x="1000" y="730" text-anchor="end" font-size="10" fill="#94a3b8">github.com/sumukhveeramalla/studeyFlowAI · 31 tests · multi-agent (LangGraph)</text>
+
+  <rect x="0" y="754" width="1024" height="14" fill="#2563eb"/>
+</svg>
